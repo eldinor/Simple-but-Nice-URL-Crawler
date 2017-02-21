@@ -13,7 +13,6 @@ class JConfig {
 	public $captcha = 'recaptcha';
 	public $cookie_domain = '';
 	public $cookie_path = '';
-	public $db = 'federalsport';
 	public $dbprefix = 'fs2_';
 	public $dbtype = 'mysql';
 	public $debug = '0';
@@ -27,17 +26,16 @@ class JConfig {
 	public $fromname = '';
 	public $ftp_enable = '0';
 	public $ftp_host = '';
-	public $ftp_pass = 'masha777';
+	public $ftp_pass = 'kalina';
 	public $ftp_port = '21';
 	public $ftp_root = '';
-	public $ftp_user = 'stepanov';
+	public $ftp_user = 'shershenik';
 	public $gzip = '0';
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
-	public $host = '';
 	public $lifetime = '15';
 	public $list_limit = '20';
 	public $live_site = '';
-	public $log_path = 'Y:/home/localhost/www/sport/log';
+	public $log_path = '/var/www/shershenik/data/www/federalsport.ru/www/log';
 	public $mailer = 'mail';
 	public $mailfrom = 'eldinor@gmail.com';
 	public $memcache_compress = '1';
@@ -49,7 +47,6 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $offset = 'UTC';
 	public $offset_user = 'UTC';
-	public $password = '';
 	public $robots = '';
 	public $secret = 'hXarGt6XOF54FkoQ';
 	public $sef = '1';
@@ -65,7 +62,10 @@ class JConfig {
 	public $smtpport = '25';
 	public $smtpsecure = 'none';
 	public $smtpuser = '';
-	public $tmp_path = 'Y:/home/localhost/www/sport/tmp';
+	public $tmp_path = '/var/www/shershenik/data/www/federalsport.ru/tmp';
 	public $unicodeslugs = '0';
-	public $user = 'root';
+	public $host = 'localhost';
+	public $user = 'umbk';
+	public $password = 'umbkuser1';
+	public $db = 'federalsport';
 }
